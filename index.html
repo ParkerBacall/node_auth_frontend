@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhiteBoard</title>
+    <style>
+        input{
+            display: block
+        }
+    </style>
+</head>
+<body>
+    <p class="is-logged-in"></p>
+    <form class="user-signup">
+        <h2>Sign up</h2>
+        <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <input type="submit" value="create user">
+        <p class='signup-message'></p>
+    </form>
+    <form class="user-login">
+        <h2>log in</h2>
+        <input type="text" name="username" placeholder="username">
+        <input type="password" name="password" placeholder="password">
+        <input type="submit" value="login">
+        <p class='login-message'></p>
+    </form>
+    <form class="logout">
+        <input type="submit" value="logout">
+    </form>
+
+    <button class="get-secret-message">get secret message</button>
+    <p class="secret-message"></p>
+
+    <script src='index.js'></script>
+</body>
+</html>
